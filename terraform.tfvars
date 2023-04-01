@@ -35,6 +35,10 @@ enable_dns_hostnames = "true"
 
 # enable_classiclink_dns_support = "false"
 
+master-username = "bakare"
+
+master-password = "abiola@1"
+
 preferred_number_of_public_subnets = "2"
 
 preferred_number_of_private_subnets = "4"
