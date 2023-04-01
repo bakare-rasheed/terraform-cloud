@@ -37,7 +37,7 @@ enable_dns_hostnames = "true"
 
 master-username = "bakare"
 
-master-password = "abiola@1"
+master-password = "bakare@1"
 
 preferred_number_of_public_subnets = "2"
 

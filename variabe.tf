@@ -111,9 +111,10 @@ variable "master-username" {
   description = "RDS admin username"
 }
 
-variable "master_password" {
+variable "master-password" {
   type        = string
   description = "RDS master password"
+  default = "bakare@1"
 }
 
 variable "db-username" {
