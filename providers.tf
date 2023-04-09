@@ -13,10 +13,10 @@ provider "aws" {
   # secret_key = var.secret_key
 }
 
-variable "access_key" {
-  default = terraform.workspace == "production" ? "" : var.access_key
-}
+# variable "access_key" {
+#   default = terraform.workspace == "production" ? "" : var.access_key
+# }
 
-variable "secret_key" {
-  default = terraform.workspace == "production" ? "" : var.secret_key
-}
+# variable "secret_key" {
+#   default = terraform.workspace == "production" ? "" : var.secret_key
+# }
