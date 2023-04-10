@@ -1,3 +1,13 @@
+terraform {
+  cloud {
+    organization = "bakare"
+
+    workspaces {
+      name = "bakare-P18"
+    }
+  }
+}
+
 #############################
 ##creating bucket for s3 backend
 #########################
